@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Apple MacBooks</title>
+</head>
+<body background="../images/grey.jpg">
+<a href="https://www.apple.com/ca/">
+	<img src="../images/applemac.png" alt ="MainLogo" id="mainlogo">
+</a>
+<div class="toolbar">
+    <a href="buynow.html">Buy Now</a> 
+    <a href="competitors.html">Competitors</a>  
+    <a href="evolution.html">Evolution</a>
+    <div class="dropdown">
+        <button class="dropbtn">MacBooks</button>
+        	<div class="dropdown-content">
+            	<a href="MacBook.html">MacBook</a>
+            	<a href="MacBookAir.html">Macbook Air</a>
+            	<a href="MacBookPro.html">MacBook Pro</a>
+        	</div>
+   	</div>     
+    <a href="Home.html">Home</a>
+</div>
+<div class="slider" >
+	<div class="slides">
+			<div>		
+				<b><u><h1 id = "txt">Apple MacBooks</h1></u></b>
+				<b><p id="txt" style="font-size:30px; top: 215px; color: black; left: 270px; width: 900px;">Apple Inc.</p></b>
+				<img src="../Images/MainMacbook1.png" alt="AppleMacBook">
+			</div>		
+			<div>		
+				<b><h1 id = "txt">Macbook</h1></b>
+				<img src="../Images/MacBook.png" alt="MacBook">
+			</div>
+			<div>		
+				<b><h1 id = "txt">MacBook Air</h1></b>				
+				<img src="../Images/MacBookAir.png" alt="MacBookAir">
+			</div>	
+			<div>		
+				<b><h1 id ="txt">MacBook Pro</h1></b>		
+				<img src="../Images/MacBookPro.png" alt="MacBookPro">
+			</div>
+	</div>
+</div>
+</body>
+</html>
